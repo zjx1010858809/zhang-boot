@@ -1,0 +1,11 @@
+#默认端口为8080
+server:
+  port: 8080
+##修改为随机端口（1024到9999），这样就不用了去管理端口了，不会造成端口冲突
+##server.port=${random.int[1024,9999]}
+#
+##自定义配置
+## @Value("${zhang.msg}")
+## private String msg;
+zhang.msg:
+  hi hello yml!
